@@ -25,14 +25,15 @@ a {
     transition: all 1s ease-in-out;
     cursor: pointer;
 
-
 }
 
 .card:hover {
   transform: rotateY(180deg);
+  -ms-transform: rotateY(180deg); /* IE 9 */
+  -webkit-transform: rotateY(180deg); /* Chrome, Safari, Opera */
   box-shadow: -10px 10px 5px #888888;
-
 }
+
 .front {
   backface-visibility: hidden;
 }
@@ -40,13 +41,11 @@ a {
 .back {
   text-align: center;
   transform: rotateY(180deg);
-
 }
 
 img {
 	width: 300px;
 }
-
 
 .fact {
 	font-style: italic;
