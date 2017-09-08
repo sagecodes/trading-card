@@ -8,6 +8,10 @@ body {
 h3 {
 	text-align: center;
 }
+a {
+	text-decoration: none;
+	color: #000;
+}
 
 .card {
 	width: 300px;
@@ -15,9 +19,12 @@ h3 {
 	padding: 0px 20px 20px 20px;
 	margin: auto;
 	box-shadow: 10px 10px 5px #888888;
+	background-color: #ccf5ff;
 
 	transform-style: preserve-3d;
-  transition: all 1s ease-in-out;
+    transition: all 1s ease-in-out;
+    cursor: pointer;
+
 
 }
 
@@ -33,6 +40,7 @@ h3 {
 .back {
   text-align: center;
   transform: rotateY(180deg);
+
 }
 
 img {
@@ -57,3 +65,4 @@ ul {
 	border: solid rgba(0, 0, 0, .1) 1px;
 	padding: 5px;
 }
+
