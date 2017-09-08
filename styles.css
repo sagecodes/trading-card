@@ -1,5 +1,41 @@
 /* add your CSS here */
 
+body {
+	background: #f9f9f9;
+}
+
+h3 {
+	text-align: center;
+}
+
+.card {
+	width: 300px;
+	border: solid 2px;
+	padding: 0px 20px 20px 20px;
+	margin: auto;
+	box-shadow: 10px 10px 5px #888888;
+
+}
+
 img {
 	width: 300px;
+}
+
+
+.fact {
+	font-style: italic;
+}
+
+ul {
+  list-style-type: none;
+  margin-left: -40px;
+}
+
+.item-name {
+	font-weight: bold;
+}
+
+.content-text {
+	border: solid rgba(0, 0, 0, .1) 1px;
+	padding: 5px;
 }
